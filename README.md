@@ -1,4 +1,4 @@
-# RTSP Stream Recorder
+# RTSP Stream Recorder (or a homemade NVR for Wi-Fi cameras)
 
 This Python script records an RTSP stream from a Wi-Fi camera, segments the footage into 10-minute files, and stores them in a specified directory. The script automatically deletes the oldest footage when the limit is exceeded, ensuring that the most recent recordings are always retained.
 
