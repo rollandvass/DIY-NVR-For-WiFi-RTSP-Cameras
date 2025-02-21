@@ -52,3 +52,5 @@ The script will start recording the RTSP stream in 10-minute segments, saving th
 
 ## Additional notes
 - To stop the recording manually, press the 'Q' key while the live preview window is open.
+- This script could easily be extended to work with multiple Wi-Fi cameras (pls use wired cameras though)
+- I would say this works best with a Raspberry Pi (unless you leave your laptop at home and running at all times)
