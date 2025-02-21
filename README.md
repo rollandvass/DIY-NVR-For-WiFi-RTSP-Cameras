@@ -25,12 +25,12 @@ pip install opencv-python python-dotenv
 1. Set Up Environment Variables
 You need to create a `.env` file to store your camera credentials. The script will automatically load these values.
 
-Example `.env`:
-CAM_USERNAME=your_username
-CAM_PASSWORD=your_camera_password
-CAM_IP=camera_local_ip_address (e.g. 192.168.1.71) - *good idea to configure your camera to be static
-CAM_PORT=your_camera_port (e.g. 554)
-CAM_ENDPOINT=your_camera_stream_endpoint (e.g. onvif1)
+Example `.env`:<br>
+CAM_USERNAME=your_username<br>
+CAM_PASSWORD=your_camera_password<br>
+CAM_IP=camera_local_ip_address (e.g. 192.168.1.71) - *good idea to configure your camera to be static<br>
+CAM_PORT=your_camera_port (e.g. 554)<br>
+CAM_ENDPOINT=your_camera_stream_endpoint (e.g. onvif1)<br>
 CAM_DEVICENAME=your_camera_device_name (just for save path and file names)
 
 2. Modify Save Path (Optional)
