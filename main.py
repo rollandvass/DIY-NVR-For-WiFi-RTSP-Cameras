@@ -9,8 +9,8 @@ load_dotenv()
 RTSP_URL = "rtsp://" + f"{os.getenv('CAM_USERNAME')}" + ":" + f"{os.getenv('CAM_PASSWORD')}" + "@" + f"{os.getenv('CAM_IP')}" + ":" + f"{os.getenv('CAM_PORT')}" + "/" + f"{os.getenv('CAM_ENDPOINT')}"
 DEVICE = os.getenv('CAM_DEVICENAME')
 SAVE_PATH = "D:/RTSP_Recordings/" + DEVICE
-SEGMENT_DURATION = 10 * 60
-MAX_SEGMENTS = 500
+SEGMENT_DURATION = 10 * 60 # 10 minutes - ~700Mb @1080p
+MAX_SEGMENTS = 500 # 500 videos - 500 * 10 mins (approx. 350Gb of footage)
 
 # save dir
 os.makedirs(SAVE_PATH, exist_ok=True)
